@@ -130,12 +130,14 @@ Results:
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSIpGv3ahu7aJzJWbUK8onqSly6PGuuNxUprZvPZtp0TVrxzAUqr3m4d-IsJ8Uq1GH9BaQUy1RpCDcA/pub?w=517&amp;h=551">
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vSIpGv3ahu7aJzJWbUK8onqSly6PGuuNxUprZvPZtp0TVrxzAUqr3m4d-IsJ8Uq1GH9BaQUy1RpCDcA/pub?w=517&amp;h=551">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vT49Erj97a5Dp-A5gutSRVe_G10hDCV70qPGQUxyTAf6I_duw1Q5lnaYkaNKoKltMzZTLWvaSd5Tqks/pub?w=484&amp;h=689">
 
 In the following Basic Neural Networks I experimented with changing image size, using different activations, optimizers, changing the batch size, and adding additional Dense layers. The third Neural Network model had the best results with 85% accuracy, high precision/recall, and visualizations that were relatively smooth. 
 
 Third Basic Neural Network Model and Results:
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vTNBPQglsFkEoYEyTbMfpb1E0b_h4mA0MkMjAzuKsqTwBQoVTF-pglj-jU_Dpu6dhZ_f6t9kFAkNhT8/pub?w=665&amp;h=296">
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTBh2_RXXirLHghkQmdtWDnsoScTYzZuzunWT4k5WhndL847Xj-eK4gjEL7jM-07MoRMJuCvbo6fEDZ/pub?w=746&amp;h=415">
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSFpOCeXoK_gf8m3LaA9Uvtzb14a5pLoxbU4hQNGMUvJBmpNVtK4PRN5PF9mg1DrvBmgIT2f0Rcp3W2/pub?w=682&amp;h=559">
 
@@ -152,24 +154,33 @@ Third Basic Neural Network Model and Results:
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vS2kgOU6lLOZvHXkreMCv_0dR5DJ8lFoZ8qQA2ktDRzb4Na9VxjAGalltKyGNe_rxqq39cI_CSnpT3l/pub?w=675&amp;h=686">
 
-With our first Convolutional Neural Network our accuracy has dropped, our gradient descent steps are more extreme, and our precision has changed. The next steps taken were to tweak the parameters and layers to build a better CNN model. 
+With our first Convolutional Neural Network our accuracy has dropped, our gradient descent steps are more extreme, and our precision has changed. The next steps taken were to tweak the parameters and layers to build a better CNN model. The final CNN Model I will show in the interpret section because this is the choice model that I would select.
 
 ### Interpret:
 
+##### Final CNN Model
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQNRRpZG7376IWL6AFUIMw0KrzOxkvXYAYGBTsspA6ih6dviDCFd226C5bdtgTGZshmW-En-ocTzAlj/pub?w=796&amp;h=598">
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSg7wiHtIGHSiUEQu0EexPwd33LC53TJ8ZtK2nIUQQGAx3Z0Ij_LfK4S2xqJtPos3IzCeEf_ZXo0WlN/pub?w=867&amp;h=407">
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRsxlVJhL3-_se_a1J4_1BWkSFhQ9sZQaLN9C3LiLTusQ0nC-t0BX9VD2rjcBUvnegD1xVcrg3CvsRY/pub?w=794&amp;h=558">
 
-Model Include:
-Similar to the Mod 3 project, the focus is on prediction. Good prediction is a matter of the model generalizing well. Steps we can take to assure good generalization include: testing the model on unseen data, cross-validation, and regularization. What sort of model should you build?
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vR0hCP2hQtP4PvZyv3Y1Pd8ch6heKo_BMTAdtVa0xv19P2CqJAxwLEgV5S86fBfZmlQBa5UHu_0AaWl/pub?w=763&amp;h=682">
 
+This model hits our goal of predicting with 88% accuracy. Our precision and recall scores are also above 80%. 
 
-Evaluation Include:
-Recall that there are many different metrics we might use for evaluating a classification model. Accuracy is intuitive, but can be misleading, especially if you have class imbalances in your target. Perhaps, depending on you're defining things, it is more important to minimize false positives, or false negatives. It might therefore be more appropriate to focus on precision or recall. You might also calculate the AUC-ROC to measure your model's *discrimination*.
 
 ## Recommendations
+1. Use an image size of 64x64 for faster processing.
+2. If focusing on highest Accuracy use CNN Model 3.
+3. If focusing on highest Recall use CNN Model 2. 
+4. If focusing on highest Precision use the Baseline Neural Network Model.
+5. Overall the best Model to use would be CNN Model 3.
 
-
-
+## Future Work
+1. Use a larger dataset to improve accuracy and precision.
+2. Look at X-Rays of adult lungs with and without Pneumonia.
+3. Use a premade CNN to see if they could potentially work better.
 
 ## For Further Information
 
