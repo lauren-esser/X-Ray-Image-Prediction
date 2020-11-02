@@ -130,7 +130,7 @@ Results:
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSIpGv3ahu7aJzJWbUK8onqSly6PGuuNxUprZvPZtp0TVrxzAUqr3m4d-IsJ8Uq1GH9BaQUy1RpCDcA/pub?w=517&amp;h=551">
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vT49Erj97a5Dp-A5gutSRVe_G10hDCV70qPGQUxyTAf6I_duw1Q5lnaYkaNKoKltMzZTLWvaSd5Tqks/pub?w=484&amp;h=689">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRpT2mCacPWWNKdJtpXD1xaoSmYwEqmOgs8eWCDN3uAQeqwCz3sy52eJ9LMBY9Lb7gJNC26ldmjswTk/pub?w=456&amp;h=690">
 
 In the following Basic Neural Networks I experimented with changing image size, using different activations, optimizers, changing the batch size, and adding additional Dense layers. The third Neural Network model had the best results with 85% accuracy, high precision/recall, and visualizations that were relatively smooth. 
 
