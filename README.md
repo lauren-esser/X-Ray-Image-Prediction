@@ -184,7 +184,7 @@ This model hits our goal of predicting with 88% accuracy. Our precision and reca
 
 ## For Further Information
 
-Please review the narrative of my analysis in my jupyter notebok or review my presentation. For any additional questions please contact via e-mail at Lauren.Esser02@gmail.com or Lauren Esser on LinkedIn.
+Please review the narrative of my analysis in my jupyter notebook or review my presentation. For any additional questions please contact via e-mail at Lauren.Esser02@gmail.com or Lauren Esser on LinkedIn.
 
 
 
