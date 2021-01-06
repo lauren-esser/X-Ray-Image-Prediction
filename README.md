@@ -182,11 +182,37 @@ This model hits our goal of predicting with 88% accuracy. Our precision and reca
 2. Look at X-Rays of adult lungs with and without Pneumonia.
 3. Use a premade CNN to see if they could potentially work better.
 
+## Reproduction Instructions
+This project uses:
+* Anaconda, a package and environmental management tool
+* Python 3.6.9
+* Numpy
+* Pandas
+* Seaborn
+* Matplotlib
+* Sklearn
+* Tensorflow
+* Datetime
+* Scipy
+* Os, Glob
+* Yellowbrick
+
+If you would like to follow the analysis locally and have the above tools:
+
+1. Fork and clone this repository
+2. Obtain data [Linked Here.](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) and upload into your Google Drive under /gdrive/My Drive
+3. Download and run notebook into Google Colab making sure you connect to your own Google Drive.
+
+You should then be able to run the exploration and analysis in the provided X-Ray-Prediction-Notebook.ipynb.
+
 ## For Further Information
 
-Please review the narrative of my analysis in my jupyter notebook or review my presentation. For any additional questions please contact via e-mail at Lauren.Esser02@gmail.com or Lauren Esser on LinkedIn.
+Please review the narrative of my analysis in my jupyter notebook or review my presentation. For any additional questions please contact via e-mail at Lauren.Esser02@gmail.com or on [LinkedIn.](https://www.linkedin.com/in/laurenesser/)
 
-
+## Repository Structure:
+README.md <- README for reviewers of this project.
+X-Ray-Prediction-Notebook.ipynb <- narrative documentation of analysis in jupyter notebook
+Presentation.pdf <- pdf version of project presentation
 
 
 
